@@ -31,4 +31,6 @@ stream.download(r"Your path goes here") # Go to the folder where you want to sav
 # If you want to download the audio only, you can use the following code:
 # stream = video.streams.get_audio_only()
 # stream.download(r"Your path goes here") 
-# This will download the highest bitrate audio stream available, audio only.
+# This will download the highest bitrate audio stream available, audio only. 
+# Notice that uncommenting the above lines and running the whole code will result in the highest quality file
+# being substituted by the audio-only file, so be careful!
